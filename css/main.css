@@ -85,6 +85,9 @@ footer {
  END DO NOT CHANGE ZONE
  ##########################################################
 */
+
+/* Write your CSS here */
+
 figure {
   padding: 1em 0 0;
   float: right;
@@ -93,6 +96,10 @@ figure {
   border-width: 3px;
   border-color: #333;
   width: 300px;
+  margin-left: 0;
+  margin-right: -8em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 figcaption {
@@ -101,8 +108,25 @@ figcaption {
   font-size: .875rem;
 }
 
+.wrapper p:nth-last-child(22)::first-letter {
+  color: #f2f2f2;
+  font-size: 5rem;
+  font-style: normal;
+  background-color: #666;
+  float: left;
+  padding: .15em .175em;
+  border-top: solid;
+  border-bottom: solid;
+  border-width: 3px;
+  border-color: #333;
+  margin: .1em;
+  margin-left: -.4em;
+  width: 300px;
+}
+
 blockquote {
   float: left;
+  color: #666;
   border-top: solid;
   border-bottom: solid;
   border-width: 3px;
@@ -111,18 +135,6 @@ blockquote {
   width: 300px;
   text-align: right;
   font-size: 1.5rem;
+  margin-left: -7em;
+  margin-top: .5em;
 }
-
-.wrapper p:first-child::first-letter {
-  color: #f2f2f2;
-  font-size: 5rem;
-  background-color: #666;
-  float: left;
-  padding: .4em .2em;
-  border-top: solid;
-  border-bottom: solid;
-  border-width: 3px;
-  border-color: #333;
-  margin: .1em;
-}
-/* Write your CSS here */
