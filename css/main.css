@@ -85,5 +85,31 @@ footer {
  END DO NOT CHANGE ZONE
  ##########################################################
 */
+figure {
+  padding: 1em 0 0;
+  float: right;
+  border-top: solid;
+  border-bottom: solid;
+  border-width: 3px;
+  border-color: #333;
+  width: 300px;
+}
 
+figcaption {
+  font-style: italic;
+  padding: .5em 0;
+  font-size: .875rem;
+}
+
+blockquote {
+  float: left;
+  border-top: solid;
+  border-bottom: solid;
+  border-width: 3px;
+  border-color: #333;
+  padding: .5em 0;
+  width: 300px;
+  text-align: right;
+  font-size: 1.5rem;
+}
 /* Write your CSS here */
